@@ -1,4 +1,4 @@
-module gitpct.epam.com/rec-inv/aos-core-rcar-gen4
+module github.com/aoscloud/aos-core-rcar-gen4
 
 go 1.14
 

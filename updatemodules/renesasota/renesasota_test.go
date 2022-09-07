@@ -18,7 +18,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/syucream/posix_mq"
 
-	"gitpct.epam.com/rec-inv/aos-core-rcar-gen4/updatemodules/renesasota"
+	"github.com/aoscloud/aos-core-rcar-gen4/updatemodules/renesasota"
 )
 
 /***********************************************************************************************************************
