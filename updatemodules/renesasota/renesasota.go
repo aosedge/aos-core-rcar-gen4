@@ -10,7 +10,7 @@ import (
 
 	"github.com/aoscloud/aos_common/aoserrors"
 	"github.com/aoscloud/aos_common/aostypes"
-	"github.com/aoscloud/aos_common/partition"
+	"github.com/aoscloud/aos_common/image"
 	"github.com/aoscloud/aos_updatemanager/updatehandler"
 	log "github.com/sirupsen/logrus"
 	"github.com/syucream/posix_mq"
@@ -150,7 +150,7 @@ func (module *RenesasUpdateModule) Prepare(imagePath string, vendorVersion strin
 	}
 	file.Close()
 
-	if _, err := partition.CopyFromGzipArchive(module.config.TargetFile, imagePath); err != nil {
+	if _, err := image.CopyFromGzipArchive(module.config.TargetFile, imagePath); err != nil {
 		return aoserrors.Wrap(err)
 	}
 
