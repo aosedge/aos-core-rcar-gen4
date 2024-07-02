@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aoscloud/aos_common/aoserrors"
+	"github.com/aosedge/aos_common/aoserrors"
 	log "github.com/sirupsen/logrus"
 	"github.com/syucream/posix_mq"
 
-	"github.com/aoscloud/aos-core-rcar-gen4/updatemodules/renesasota"
+	"github.com/aosedge/aos-core-rcar-gen4/updatemodules/renesasota"
 )
 
 /***********************************************************************************************************************

@@ -1,7 +1,7 @@
 package renesasota
 
 import (
-	"github.com/aoscloud/aos_updatemanager/updatehandler"
+	"github.com/aosedge/aos_updatemanager/updatehandler"
 )
 
 /*******************************************************************************
